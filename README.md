@@ -2,9 +2,9 @@
 
 ## Prints
 <p align="center">
-  <img width="300" src="https://i.pinimg.com/originals/68/54/77/6854776e9e9c967b7b9713666b90e400.png"/>
-  <img width="300" src="https://i.pinimg.com/originals/8c/d7/d9/8cd7d921bf75beaccd50e48b8f0b3896.png"/>
-  <img width="300" src="https://i.pinimg.com/originals/d7/e4/47/d7e4473518a02a56689d7325426901ce.png"/>
+  <img width="250" src="https://i.pinimg.com/originals/68/54/77/6854776e9e9c967b7b9713666b90e400.png"/>
+  <img width="250" src="https://i.pinimg.com/originals/8c/d7/d9/8cd7d921bf75beaccd50e48b8f0b3896.png"/>
+  <img width="250" src="https://i.pinimg.com/originals/d7/e4/47/d7e4473518a02a56689d7325426901ce.png"/>
 </p>
 
 ## Knowledges
