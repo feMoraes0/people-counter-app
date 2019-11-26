@@ -1,16 +1,39 @@
-# people_count
+<h1 align="center">People Counter</h1>
 
-A new Flutter project.
+## Prints
+<p align="center">
+  <img width="300" src="https://i.pinimg.com/originals/68/54/77/6854776e9e9c967b7b9713666b90e400.png"/>
+  <img width="300" src="https://i.pinimg.com/originals/8c/d7/d9/8cd7d921bf75beaccd50e48b8f0b3896.png"/>
+  <img width="300" src="https://i.pinimg.com/originals/d7/e4/47/d7e4473518a02a56689d7325426901ce.png"/>
+</p>
 
-## Getting Started
+## Knowledges
+ - State;
+ - Basic widgets (text, image, container);
+ - Column/Row;
+ - Statefull and Stateless wigets;
 
-This project is a starting point for a Flutter application.
+## How to use
 
-A few resources to get you started if this is your first Flutter project:
+To clone and run this application, you'll need [Git](https://git-scm.com/downloads) and [Flutter](https://flutter.dev/docs/get-started/install) installed on your computer. From your command line:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```
+# Clone this repository
+$ git clone https://github.com/feMoraes0/people_counter.git
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Go into the repository
+$ cd peopel_counter
+
+# Install dependencies
+$ flutter packages get
+
+# Run the app
+$ flutter run
+```
+
+## Credits
+  - <a target="_blank" href="https://www.udemy.com/course/curso-completo-flutter-app-android-ios/">Daniel Ciolfi</a>
+
+## Contact
+  - <a target="_blank" href="https://www.linkedin.com/in/fernando-moraes-48a26916a/">LinkedIn</a>
+  - <a target="_blank" href="mailto:fernandomoraes.lopes@gmail.com">E-mail</a>
