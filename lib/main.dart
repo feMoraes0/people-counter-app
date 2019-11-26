@@ -8,16 +8,17 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'People Counter',
-      home: MainScreen(),
+      home: HomeScreen(),
     );
   }
 }
 
-class MainScreen extends StatelessWidget {
-  const MainScreen({
-    Key key,
-  }) : super(key: key);
+class HomeScreen extends StatefulWidget {
+  @override
+  _HomeScreenState createState() => _HomeScreenState();
+}
 
+class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
