@@ -19,6 +19,21 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  String _infoText = "Enter";
+  int _people = 0;
+
+  void _changePeople(int delta) {
+    setState(() {
+      _people += delta;
+      if(_people < 0)
+        _infoText = "Upside down";
+      else if(_people <= 10)
+        _infoText = "Enter";
+      else
+        _infoText = "Full";
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -34,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text(
-                "People: 0",
+                "People: $_people",
                 style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
@@ -47,7 +62,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: FlatButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        _changePeople(1);
+                      },
                       child: Text(
                         "+1",
                         style: TextStyle(
@@ -60,7 +77,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: FlatButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        _changePeople(-1);
+                      },
                       child: Text(
                         "-1",
                         style: TextStyle(
@@ -73,7 +92,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               ),
               Text(
-                "Enter!",
+                _infoText,
                 style: TextStyle(
                   color: Colors.white,
                   fontStyle: FontStyle.italic,
