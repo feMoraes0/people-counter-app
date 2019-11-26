@@ -21,8 +21,8 @@ class MainScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    return Container(
-      child: Stack(
+    return Scaffold(
+      body: Stack(
         children: <Widget>[
           Image.asset(
             "images/restaurant.jpg",
@@ -37,6 +37,7 @@ class MainScreen extends StatelessWidget {
                 style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
+                  fontSize: 45.0,
                 ),
               ),
               Row(
